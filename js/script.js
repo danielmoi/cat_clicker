@@ -1,5 +1,6 @@
 var cat = document.getElementById("cat");
 var counterDiv = document.getElementById("counter");
+var resetDiv = document.getElementById("reset");
 
 var counter = 0;
 
@@ -12,4 +13,11 @@ function increaseCounter() {
   
 }
 
+function resetCounter() {
+  counter = 0;
+  counterDiv.innerHTML = counter;
+}
+
 cat.addEventListener("click", increaseCounter, false);
+
+reset.addEventListener("click", resetCounter, false);
