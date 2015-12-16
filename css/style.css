@@ -5,3 +5,44 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+#counter1, #counter2 {
+  color: tomato;
+  font-size: 60px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#cat1, #cat2 {
+  cursor: pointer;
+  width: 45%;
+  display: inline-block;
+  margin: 20px 10px;
+  
+}
+
+body {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#reset1, #reset2 {
+  margin: 30px auto;
+  background: tomato;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+#header {
+  color: tomato;
+  font-size: 30px;
+  margin: 20px auto;
+}
